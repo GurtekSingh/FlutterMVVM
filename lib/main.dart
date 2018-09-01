@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'ships.dart';
 main() {
   runApp(MyApp());
 
@@ -9,8 +9,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  MaterialApp(
-      home: ,
-    )
+     theme: ThemeData(brightness: Brightness.dark),
+      home: StarShipManager(),
+    );
   }
 
 

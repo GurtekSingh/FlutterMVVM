@@ -33,6 +33,8 @@ class StarShip{
     ..maxAtmospheringSpeed = map['maxAtmospheringSpeed'] as String
     ..manufacturer = map['manufacturer'] as String
     ..crew = map['crew'] as String
+    ..name = map['name'] as String
+    ..model = map['model'] as String
     ;
 
   }
